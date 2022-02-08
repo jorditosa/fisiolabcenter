@@ -1,0 +1,35 @@
+@use '../base/custom' as *;
+
+.hero {
+    background-image: url('../img/zona-training.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    opacity: 0.7;
+
+    height: 35rem;
+
+    &__heading {
+        color: $light;
+        font-size: 3.6rem;
+        text-transform: uppercase;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+
+    }
+    &__text {
+        color: $light;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
