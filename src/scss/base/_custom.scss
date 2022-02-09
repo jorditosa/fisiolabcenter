@@ -5,7 +5,9 @@ $Fisiolab-1: #04BF45;
 $Fisiolab-2: #57CA7F;
 $Fisiolab-3: #038C33;
 $Fisiolab-4: #e9fff1;
+
 $Fisiolab-5: #2a3a30;
+$Fisiolab-6: #f6fff9;
 
 // Asignations
 $primary: $Fisiolab-1;
@@ -13,18 +15,18 @@ $secondary: $Fisiolab-2;
 $info: $Fisiolab-3;
 $light: $Fisiolab-4;
 $dark: $Fisiolab-5;
+$white: $Fisiolab-6;
 
 // Tipografia
 $fuentePrincipal: 'Antonio', sans-serif;
 $fuenteSecundaria: 'Kameron', serif;
 $fuenteHeadings: 'Oswald', sans-serif;
 
-
-// 'Six Caps', sans-serif;
-
 $font-family-base: $fuentePrincipal;
 $font-size-base: 1.4rem;
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;700&family=Kameron:wght@400;700&family=Oswald:wght@400;700&display=swap');
+
+
 
 
 

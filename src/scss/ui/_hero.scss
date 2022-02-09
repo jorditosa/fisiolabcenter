@@ -1,35 +1,89 @@
 @use '../base/custom' as *;
+@use '../base/mixins' as *;
 
 .hero {
-    background-image: url('../img/zona-training.jpg');
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: cover;
-    background-attachment: fixed;
+    
+    
+    position: relative;
 
-    opacity: 0.7;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        opacity: 0.7;
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-image: url('../img/zona-training.jpg');
+    }
+    
 
-    height: 35rem;
+    height: 30rem;
+    @include media-breakpoint-up(md) {
+        height: 40rem;
+    }
 
     &__heading {
-        color: $light;
         font-size: 3.6rem;
         text-transform: uppercase;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        
-
     }
     &__text {
-        color: $light;
         text-transform: uppercase;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 }
+
+/* TEXT ANIMATION */
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    z-index: 2;
+
+    h2 {
+        padding: 0rem;
+        margin: 0rem;
+        color: $primary;
+        text-shadow: 0 0.4rem 0 rgba(219, 255, 223, 0.5);
+        font-size: 4rem;
+        font-weight: bold;
+        text-transform: uppercase;
+
+        @include media-breakpoint-up(md){
+            font-size: 6.4rem;
+        }
+
+        span::before {
+            content: '';
+            animation: animate ease-in-out infinite 12s;
+
+            @include keyframes(animate){
+                0%{
+                    content: 'Fisioteràpia'
+                }
+                30%{
+                    content: 'Nutrició'
+                }
+                50%{
+                    content: 'Podologia'
+                }
+                70%{
+                    content: 'Entrenament'
+                }
+                100%{
+                    content: 'Passió'
+                }
+            }
+
+        }
+    }
+}
+
+

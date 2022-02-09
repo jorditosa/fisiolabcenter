@@ -1,0 +1,7 @@
+/* Text Hero Animation */
+
+@mixin keyframes($name){
+    @keyframes #{$name}{
+        @content;
+    }
+}

@@ -1,0 +1,64 @@
+@use '../base/custom' as *;
+@use '../base/mixins' as *;
+
+.button {
+    border: 0.2rem solid $primary;
+    background-color: $white;
+    color: $dark;
+    border-radius: 2rem;
+    padding: 0 1rem;
+    transition: all ease-in-out 0.6s;
+
+    &:hover {
+        background-color: $primary;
+        color: $light;
+      
+
+    }
+}
+
+.especialista {
+
+    overflow: hidden;
+    z-index: -1;
+
+    img {
+        border-radius: 0.5rem;
+
+        width: 100%;
+        height: auto;
+
+        border-right: 0.3rem solid $primary;
+
+       transition: all ease-in-out 0.6s;
+
+
+        &:hover {
+            filter: brightness(85%);
+            transform: scale(1.1);
+            border-radius: 0.5rem;
+            
+        }
+    }
+    &__description {
+        box-shadow: 0 0.2rem 0.1rem rgba(172, 169, 169, 0.5);
+        background-color: $light;
+        margin-top: -0.4rem;
+
+        border-right: 0.3rem solid $primary;
+        h3 {
+            font-size: 1em;
+            display: block;
+            @include media-breakpoint-up(md){
+                font-size: 1.8em;
+            }
+        }
+        span {
+            font-size: 0.6em;
+            color: $dark;
+            @include media-breakpoint-up(md){
+                font-size: 1em;
+            }
+        }
+    }
+}

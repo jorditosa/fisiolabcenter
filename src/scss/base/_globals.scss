@@ -1,0 +1,11 @@
+@use '../base/custom' as *;
+@use '../base/mixins' as *;
+
+// GLOBALS
+a,
+.nav-link {
+    &:hover {
+        color: $light;
+        transform: scale(1.1);
+    }
+}
