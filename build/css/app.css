@@ -11231,7 +11231,16 @@ textarea.form-control-lg {
 a:hover,
 .nav-link:hover {
   color: #e9fff1;
-  transform: scale(1.1);
+}
+
+.nav-link-offcanvas {
+  color: #2a3a30;
+  text-decoration: none;
+  padding: 0.6rem 0;
+  font-size: 1.4rem;
+}
+.nav-link-offcanvas:hover {
+  color: #e9fff1;
 }
 
 .logo {
@@ -11275,10 +11284,10 @@ a:hover,
   width: 100%;
   opacity: 0.7;
   background-repeat: no-repeat;
-  background-position: left center;
+  background-position: center top;
   background-size: cover;
   background-attachment: fixed;
-  background-image: url("../img/zona-training.jpg");
+  background-image: url("../img/zona-outside.jpg");
 }
 @media (min-width: 768px) {
   .hero {
@@ -11305,7 +11314,7 @@ a:hover,
   padding: 0rem;
   margin: 0rem;
   color: #04BF45;
-  text-shadow: 0 0.4rem 0 rgba(219, 255, 223, 0.5);
+  text-shadow: #474747 3px 5px 2px, 2px 2px 2px rgba(1, 51, 18, 0);
   font-size: 4rem;
   font-weight: bold;
   text-transform: uppercase;

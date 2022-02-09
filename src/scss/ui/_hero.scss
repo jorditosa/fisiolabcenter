@@ -16,10 +16,10 @@
         width: 100%;
         opacity: 0.7;
         background-repeat: no-repeat;
-        background-position: left center;
+        background-position: center top;
         background-size: cover;
         background-attachment: fixed;
-        background-image: url('../img/zona-training.jpg');
+        background-image: url('../img/zona-outside.jpg');
     }
     
 
@@ -51,7 +51,7 @@
         padding: 0rem;
         margin: 0rem;
         color: $primary;
-        text-shadow: 0 0.4rem 0 rgba(219, 255, 223, 0.5);
+        text-shadow: #474747 3px 5px 2px, 2px 2px 2px rgba(1,51,18,0);
         font-size: 4rem;
         font-weight: bold;
         text-transform: uppercase;
