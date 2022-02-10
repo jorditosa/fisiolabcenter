@@ -31,8 +31,8 @@
 }
 
 .button-serveis {
-    border: 0.2rem outset $light;
-    background-color: transparent;
+    border: 0.2rem outset $dark;
+    background-color: $white;
 
     border-radius: 1.6rem;
     padding: 0.4rem 2rem;
@@ -40,15 +40,15 @@
     text-transform: uppercase;
     
     a {
-        color: $light;
+        color: $dark;
         text-decoration: none;
         transition: all ease-in-out 0.5s;
     }
 
     &:hover {
-        background-color: $white;
+        background-color: $dark;
         a {
-            color: $primary;
+            color: $white;
         }
     }
 }
@@ -70,7 +70,7 @@
     &:hover {
         background-color: $primary;
         a {
-            color: $light;
+            color: $white;
         }
     }
 }

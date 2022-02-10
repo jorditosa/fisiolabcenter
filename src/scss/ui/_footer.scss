@@ -3,6 +3,19 @@
 
 .footer {
     font-size: 1.2rem;
+
+    &__sociales {
+
+        color: $white;
+
+        i {
+            color: $white;
+
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
 }
 .logo__footer {
     max-width: 8rem;

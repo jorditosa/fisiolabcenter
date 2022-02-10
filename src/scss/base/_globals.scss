@@ -2,10 +2,14 @@
 @use '../base/mixins' as *;
 
 // GLOBALS
+
+body {
+    background-color: $white;
+}
 a,
 .nav-link {
     &:hover {
-        color: $light;
+        color: $white;
     }
 }
 .nav-link-offcanvas {
@@ -14,7 +18,14 @@ a,
     padding: 0.6rem 0;
     font-size: 1.4rem;
     &:hover {
-        color: $light;
+        color: $white;
     }
 }
 
+i, li {
+
+    &:hover {
+        color: $primary;
+        cursor: pointer;
+    }
+}

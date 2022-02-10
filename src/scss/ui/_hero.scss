@@ -88,3 +88,41 @@
 
 
 
+/* HERO 2 */
+
+.hero__2 {
+    
+    
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        opacity: 0.6;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-image: url('../img/zona-training.jpg');
+    }
+    
+
+    height: 20rem;
+    @include media-breakpoint-up(md) {
+        height: 30rem;
+    }
+
+    &__heading {
+        font-size: 3.6rem;
+        text-transform: uppercase;
+    }
+    img {
+        position: absolute;
+        z-index: 2;
+    }
+}

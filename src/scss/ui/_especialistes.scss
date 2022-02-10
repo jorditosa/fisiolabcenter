@@ -2,7 +2,7 @@
 @use '../base/mixins' as *;
 
 .button {
-    border: 0.2rem outset $info;
+    border: 0.2rem outset $secondary;
     background-color: $white;
     color: $dark;
     border-radius: 2rem;
@@ -12,8 +12,8 @@
     font-size: 1rem;
 
     &:hover {
-        background-color: $info;
-        color: $light;
+        background-color: $secondary;
+        color: $white;
     }
 }
 
@@ -28,9 +28,18 @@
         width: 100%;
         height: auto;
 
-        border-right: 0.3rem solid $primary;
+        border-right: 0.4rem solid $primary;
 
        transition: all ease-in-out 0.5s;
+
+       &::before {
+           content: '';
+           background-image: url('../img/pattern-1.png');
+           top: 0;
+           left: 0;
+           right: 0;
+           bottom: 0;
+       }
 
 
         &:hover {
@@ -45,20 +54,21 @@
         background-color: $light;
         margin-top: -0.4rem;
 
-        border-right: 0.3rem solid $primary;
-        border-radius: 0.5rem;
+        border-right: 0.4rem solid $primary;
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
         h3 {
-            font-size: 1em;
+            font-size: 0.7em;
             display: block;
             @include media-breakpoint-up(md){
-                font-size: 1.8em;
+                font-size: 1.4em;
             }
         }
         span {
-            font-size: 0.6em;
+            font-size: 0.5em;
             color: $dark;
             @include media-breakpoint-up(md){
-                font-size: 1em;
+                font-size: 0.8em;
             }
         }
     }
