@@ -1,0 +1,9 @@
+@use '../base/custom' as *;
+@use '../base/mixins' as *;
+
+.footer {
+    font-size: 1.2rem;
+}
+.logo__footer {
+    max-width: 8rem;
+}

@@ -44,12 +44,17 @@
                         <a class="nav-link-offcanvas" href="elcentre.html">El centre</a>
                         <a class="nav-link-offcanvas" href="blog.html">Blog</a>
                         <a class="nav-link-offcanvas" href="serveis.html">Serveis</a>
-                        <a class="nav-link-offcanvas" href="contacte.html">Contacte</a>
+                        <a class="nav-link-offcanvas pb-3" href="contacte.html">Contacte</a>
                     </div>
-                    <div class="navbar-nav px-1 pt-3 flex-column justify-content-around">
-                        <p class="m-0 text-dark py-1 fs-6">Av Cubelles, 31 Vilanova i la Geltrú BCN</p>
-                        <a class="text-dark py-1 fs-6 text-decoration-none" href="tel:665091019">665 09 10 19</a>
-                        <a class="text-dark py-1 fs-6 text-decoration-none" href="mailto:admin@fisiolabcenter.com">admin@fisiolabcenter.com</a>
+                    <div class="footer__sociales text-center fs-3 py-3 d-flex justify-content-evenly">
+                        <a href="https://www.facebook.com/fisiolabcenter/"><i class="bi bi-facebook text-dark"></i></a>
+                        <a href="https://www.instagram.com/fisiolabcenter/?hl=es"><i class="bi bi-instagram text-dark"></i></a>
+                        <a class="qlwapp-toggle" data-action="open" data-phone="34665091019" data-message="¡Hola! Necessito demanar cita per..." href="https://web.whatsapp.com/send?phone=34665091019&amp;text=¡Hola! Necessito demanar cita per..." target="_blank">
+                            <i class="bi bi-whatsapp text-dark"></i>
+                        </a>
+                    </div>
+                    <div class="navbar-nav px-1 pt-1 flex-column justify-content-around">
+                        <a class="text-dark text-center py-1 fs-6 text-decoration-none" href="mailto:admin@fisiolabcenter.com">admin@fisiolabcenter.com</a>
                     </div>
                 </div>
             </div>
@@ -126,8 +131,8 @@
     <section class="serveis container-fluid py-1 px-0 m-0">
         <img src="build/img/wave_top.svg" alt="imagen top seccion" class="wave">
         <div class="bg-primary">
-            <div class="row container-xl">
-                <div class="col-md-8 text-light py-2">
+            <div class="row container-xl mx-auto">
+                <div class="serveis__texto col-md-8 text-light py-2">
                     <h2 class="py-2">Fisioteràpia</h2>
                     <p class="m-0 py-2">Servei de fisioteràpia a Vilanova i la Geltrú.  Ajuda a millorar el teu dolor des del vessant de la salut. És una eina que té com a objectiu la prevenció, promoció i tractament del nostre pacient. En aquest servei utilitzem i donem més eines necessàries perquè recuperis la teva funcionalitat.</p>
                     <button class="button-serveis mx-auto">
@@ -136,7 +141,7 @@
                         </a>
                     </button>
                 </div>
-                <div class="col-md-4 fisio">
+                <div class="col-md-4 fisio py-2">
                     <img src="build/img/fisio_1.jpg" alt="imagen fisioterapia" class="img-fluid py-2">
                 </div>
             </div>
@@ -147,14 +152,14 @@
     <section class="serveis container-fluid py-1 px-0 m-0">
         <div>
             <div class="row container-xl mx-auto">
-                <div class="col-md-4 fisio">
+                <div class="col-md-4 fisio py-2">
                     <img src="build/img/nutri_1.jpg" alt="imagen fisioterapia" class="img-fluid py-2">
                 </div>
-                <div class="col-md-8 text-dark py-2">
+                <div class="serveis__texto col-md-8 text-dark py-2">
                     <h2 class="py-2">Nutrició</h2>
                     <p class="m-0 py-2">El nostre servei de nutrició adaptada a l’esport es basa en una planificació nutricional en funció de l’esportista, que dependrà del seu estil de vida, esport que practica, sexe , edat… junt amb un seguiment que li permetrà arribar en bon estat de forma als seus objectius.</p>
-                    <button class="button-serveis">
-                        <a href="serveis/fisioterapia.html" class="text-dark">
+                    <button class="button-serveis-2">
+                        <a href="serveis/fisioterapia.html">
                             Saber-ne més
                         </a>
                     </button>
@@ -167,12 +172,12 @@
         <img src="build/img/wave_top_2.svg" alt="imagen top seccion" class="wave">
         <div class="bg-info">
             <div class="row container-xl mx-auto">
-                <div class="col-md-4 fisio">
+                <div class="col-md-4 fisio py-2">
                     <img src="build/img/nutri_1.jpg" alt="imagen fisioterapia" class="img-fluid py-2">
                 </div>
-                <div class="col-md-8 text-light py-2">
-                    <h2 class="py-2">Nutrició</h2>
-                    <p class="m-0 py-2">El nostre servei de nutrició adaptada a l’esport es basa en una planificació nutricional en funció de l’esportista, que dependrà del seu estil de vida, esport que practica, sexe , edat… junt amb un seguiment que li permetrà arribar en bon estat de forma als seus objectius.</p>
+                <div class="serveis__texto col-md-8 text-light py-2">
+                    <h2 class="py-2">Podologia</h2>
+                    <p class="m-0 py-2">Estudi del peu i del conjunt de les extremitats inferiors per a la detecció, prevenció i tractament d’alteracions en la funcionalitat articular i biomecànica de la marxa.</p>
                     <button class="button-serveis">
                         <a href="serveis/fisioterapia.html">
                             Saber-ne més
@@ -184,72 +189,110 @@
         <img src="build/img/wave_down_2.svg" alt="imagen bottom seccion" class="wave wave-down">
     </section>
 
-
-    <section class="galeria container-xl">
-        <div class="row">
-
+    <section class="serveis container-fluid py-1 px-0 m-0">
+        <div>
+            <div class="row container-xl mx-auto">
+                <div class="col-md-4 fisio py-2">
+                    <img src="build/img/nutri_1.jpg" alt="imagen fisioterapia" class="img-fluid py-2">
+                </div>
+                <div class="serveis__texto col-md-8 text-dark py-2">
+                    <h2 class="py-2">Entrenament</h2>
+                    <p class="m-0 py-2">A l’àrea d’entrenament de Fisiolab estructurem l’exercici físic a través d’una programació individualitzada en funció de les necessitats de cada pacient. Determinem objectius específics i ens focalitzem en el seu assoliment, que serà visible i mesurable.</p>
+                    <button class="button-serveis-2">
+                        <a href="serveis/fisioterapia.html">
+                            Saber-ne més
+                        </a>
+                    </button>
+                </div>
+            </div>
         </div>
     </section>
 
+    <section class="galeria container-xl py-3">
+        <div class="row">
 
-        
+        </div>
+    </section>  
 
-    <footer class="footer bg-dark border-top border-primary border-3">
-        <div class="container-fluid row">
-            <div class="col-md-4">
-                <div class="footer__sociales text-center fs-1">
-                    <a href="https://www.facebook.com/fisiolabcenter/"><i class="bi bi-facebook text-light px-2"></i></a>
-                    <a href="https://www.instagram.com/fisiolabcenter/?hl=es"><i class="bi bi-instagram text-light px-2"></i></a>
+    <footer class="footer bg-dark border-top border-primary border-3 pt-4">
+        <div class="container-xl row mx-auto">
+            <div class="col-md-4 pb-4">
+                <h3 class="py-2 text-light border-bottom border-light">Contacta'ns</h3>
+                <div class="footer__sociales text-center fs-2 py-3 d-flex justify-content-around">
+                    <a href="https://www.facebook.com/fisiolabcenter/"><i class="bi bi-facebook text-light"></i></a>
+                    <a href="https://www.instagram.com/fisiolabcenter/?hl=es"><i class="bi bi-instagram text-light"></i></a>
                     <a class="qlwapp-toggle" data-action="open" data-phone="34665091019" data-message="¡Hola! Necessito demanar cita per..." href="https://web.whatsapp.com/send?phone=34665091019&amp;text=¡Hola! Necessito demanar cita per..." target="_blank">
-                        <i class="bi bi-whatsapp text-light px-2"></i>
+                        <i class="bi bi-whatsapp text-light"></i>
                     </a>
-
                 </div>
-                <img src="build/img/Fisiolab-logo-blanco.webp" alt="imagen fisiolab blanca" class="img-fluid">
+                <div class="footer__contact pt-2">
+                    <p class="m-0 d-block text-light py-1">Av Cubelles, 31 Vilanova i la Geltrú BCN</p>
+                        <a class="d-block text-light py-1  text-decoration-none" href="tel:665091019">665 09 10 19</a>
+                        <a class="d-block text-light py-1  text-decoration-none" href="mailto:admin@fisiolabcenter.com">admin@fisiolabcenter.com</a>
+                </div>
             </div>
-            <div class="col-md-4 text-light">
-                <h3>El nostre horari</h3>
-                <table>
-                    <tbody>
-                      <tr>
-                        <td>DILLUNS</td>
-                        <td>8:30AM - 21PM</td>
-                      </tr>
-                      <tr>
-                        <td>DIMARTS</td>
-                        <td>8:30AM - 21PM</td>
-                      </tr>
-                      <tr>
-                        <td>DIMECRES</td>
-                        <td>8:30AM - 21PM</td>
-                      </tr>
-                      <tr>
-                        <td>DIJOUS</td>
-                        <td>8:30AM - 21PM</td>
-                      </tr>
-                      <tr>
-                        <td>DIVENDRES</td>
-                        <td>8:30AM - 21PM</td>
-                      </tr>
-                      <tr>
-                        <td>DISSABTE</td>
-                        <td>AMB VITA PRÈVIA</td>
-                      </tr>
-                      <tr>
-                        <td>DIUMENGE</td>
-                        <td>TANCAT</td>
-                      </tr>
-                    </tbody>
+            <div class="col-md-4 pb-4">
+                <h3 class="py-2 border-bottom border-light text-light">El nostre horari</h3>
+                <div class="py-3">
+                    <table class="text-light">
+                        <tbody>
+                          <tr class="py-2">
+                            <td>DILLUNS</td>
+                            <td class="ps-4">8:30 AM - 21 PM</td>
+                          </tr>
+                          <tr class="py-2">
+                            <td>DIMARTS</td>
+                            <td class="ps-4">8:30 AM - 21 PM</td>
+                          </tr>
+                          <tr class="py-2">
+                            <td>DIMECRES</td>
+                            <td class="ps-4">8:30 AM - 21 PM</td>
+                          </tr>
+                          <tr class="py-2">
+                            <td>DIJOUS</td>
+                            <td class="ps-4">8:30 AM - 21 PM</td>
+                          </tr>
+                          <tr class="py-2">
+                            <td>DIVENDRES</td>
+                            <td class="ps-4">8:30 AM - 21 PM</td>
+                          </tr>
+                          <tr class="py-2">
+                            <td>DISSABTE</td>
+                            <td class="ps-4">AMB CITA PRÈVIA</td>
+                          </tr>
+                          <tr class="py-2">
+                            <td>DIUMENGE</td>
+                            <td class="ps-4">TANCAT</td>
+                          </tr>
+                        </tbody>
                     </table>
+                </div>    
             </div>
+            <div class="col-md-4 pb-4">
+                <h3 class="py-2 text-light border-bottom border-light">Els nostres serveis</h3>
+                <div class="py-3">
+                    <ul class="text-light">
+                        <li>Fisioteràpia</li>
+                        <li>Entrenament</li>
+                        <li>Ecografia</li>
+                        <li>Exercici terapèutic</li>
+                        <li>Biomecànica al running</li>
+                        <li>Pilates</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid border-top border-primary border-3"></div>
+        <div class="footer-copyright container-xl text-center d-flex justify-content-around">
             <div class="col-md-4">
-                
+                <a href="#">
+                    <img src="build/img/Fisiolab-logo-blanco.webp" alt="imagen fisiolab blanca" class="logo__footer img-fluid py-3">
+                </a>
+            </div>
+            <div class="col-md-8 align-self-center">
+                <p class="m-0 text-light p-3 text-start">Fisiolab es el teu centre de salut referent al Garraf. &copy;Fisiolab Center 2022. Tots els drets reservats.</p>
             </div>
         </div>
-        <div class="footer-copyright">
-            
-        </div>
-
     </footer>
     
 

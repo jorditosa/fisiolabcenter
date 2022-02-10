@@ -2,15 +2,17 @@
 @use '../base/mixins' as *;
 
 .button {
-    border: 0.3rem inset $primary;
+    border: 0.2rem outset $info;
     background-color: $white;
     color: $dark;
     border-radius: 2rem;
-    padding: 0 1rem;
+    padding: 0 0.8rem;
     transition: all ease-in-out 0.5s;
 
+    font-size: 1rem;
+
     &:hover {
-        background-color: $primary;
+        background-color: $info;
         color: $light;
     }
 }
