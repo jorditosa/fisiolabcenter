@@ -1,0 +1,31 @@
+@use '../base/custom' as *;
+@use '../base/mixins' as *;
+
+
+
+.wave {
+    transform: scale(1.2);
+}
+
+.button-serveis {
+    border: 0.3rem inset $light;
+    background-color: transparent;
+
+    border-radius: 2rem;
+    padding: 0.4rem 2rem;
+    transition: all ease-in-out 0.5s;
+    text-transform: uppercase;
+    
+    a {
+        color: $light;
+        text-decoration: none;
+        transition: all ease-in-out 0.5s;
+    }
+
+    &:hover {
+        background-color: $white;
+        a {
+            color: $primary;
+        }
+    }
+}
