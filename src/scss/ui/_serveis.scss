@@ -2,9 +2,15 @@
 @use '../base/mixins' as *;
 
 
-
+.serveis {
+    overflow: hidden;
+}
 .wave {
     transform: scale(1.2);
+
+    &-down {
+        margin: -1rem 0 0 0;
+    }
 }
 
 .button-serveis {
