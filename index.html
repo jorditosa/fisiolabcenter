@@ -12,6 +12,7 @@
     <link rel="canonical" href="https://www.fisiolabcenter.com/" />
 
     <link rel="stylesheet" href="build/css/app.css">
+    <link rel="stylesheet" href="build/css/animate.min.css">
 </head>
 <body>
     <header class="header container-fluid bg-dark border-3 border-primary border-top border-bottom ">
@@ -89,13 +90,15 @@
         <div class="row container-xl mx-auto">
             <div class="col-6 col-sm-4 col-md-3 p-1 p-md-3">
                 <div class="especialista">
-                    <img src="build/img/fisiolab_morata-1-330x470.jpg" alt="imagen morata">
+                    <img src="build/img/fisiolab_morata-1-330x470.jpg" alt=t"imagen morata">
                 </div>
                 <div class="especialista__description p-1">
                     <span class="pt-3">Fisioterapeuta</span>
                     <h3>Carles Morata</h3>
-                    <span class="badge rounded-pill bg-primary text-white">Fisioteràpia</span>
-                    <span class="badge rounded-pill bg-primary text-white">Ecografia</span>
+                    <div class="text-end">
+                        <span class="badge rounded bg-primary text-white">Fisioteràpia</span>
+                        <span class="badge rounded bg-info text-white">Ecografia</span>
+                    </div>
                 </div>
             </div>
             <div class="col-6 col-sm-4 col-md-3 p-1 p-md-3">
@@ -105,6 +108,10 @@
                 <div class="especialista__description p-1">
                     <span class="pt-3">Nutricionista</span>
                     <h3>Gisela Carrion</h3>
+                    <div class="text-end">
+                        <span class="badge rounded bg-dark text-white">Nutrició</span>
+                        <span class="badge rounded bg-info text-white">Alt rendiment</span>
+                    </div>
                 </div>
             </div>
             <div class="col-6 col-sm-4 col-md-3 p-1 p-md-3">
@@ -164,7 +171,7 @@
                 <div class="col-md-4 fisio py-2">
                     <img src="build/img/fisio_1.jpg" alt="imagen fisioterapia" class="img-fluid py-2">
                 </div>
-                <div class="serveis__texto col-md-8 text-light py-2">
+                <div class="serveis__texto col-md-8 text-white py-2">
                     <h2 class="py-2">Fisioteràpia</h2>
                     <p class="m-0 py-2">Ajuda a millorar el teu dolor des del vessant de la salut. És una eina que té com a objectiu la prevenció, promoció i tractament del nostre pacient. En aquest servei utilitzem i donem més eines necessàries perquè recuperis la teva funcionalitat.</p>
                     <button class="button-serveis mx-auto">
@@ -204,7 +211,7 @@
                 <div class="col-md-4 fisio py-2">
                     <img src="build/img/podo_1.jpg" alt="imagen podologia" class="img-fluid py-2">
                 </div>
-                <div class="serveis__texto col-md-8 text-light py-2">
+                <div class="serveis__texto col-md-8 text-white py-2">
                     <h2 class="py-2">Podologia</h2>
                     <p class="m-0 py-2">Estudi del peu i del conjunt de les extremitats inferiors per a la detecció, prevenció i tractament d’alteracions en la funcionalitat articular i biomecànica de la marxa.</p>
                     <button class="button-serveis">
@@ -240,19 +247,51 @@
     <!-- FIN SECCIONES SERVICIOS -->
 
 
-    <section class="hero__2 img-fluid text-center row m-0">
-        <div class="col align-self-center">
-           
+    <section class="hero__2 m-0 d-flex justify-content-center">
+        <div class="text-center horaris py-3 mx-auto align-self-center">
+            <h3 class="py-2 text-dark">El nostre horari</h3>
+            <table class="text-dark">
+                    <tbody>
+                          <tr class="py-2">
+                            <td>DILLUNS</td>
+                            <td class="ps-3">8:30 AM - 21 PM</td>
+                          </tr>
+                          <tr class="py-2">
+                            <td>DIMARTS</td>
+                            <td class="ps-3">8:30 AM - 21 PM</td>
+                          </tr>
+                          <tr class="py-2">
+                            <td>DIMECRES</td>
+                            <td class="ps-3">8:30 AM - 21 PM</td>
+                          </tr>
+                          <tr class="py-2">
+                            <td>DIJOUS</td>
+                            <td class="ps-3">8:30 AM - 21 PM</td>
+                          </tr>
+                          <tr class="py-2">
+                            <td>DIVENDRES</td>
+                            <td class="ps-3">8:30 AM - 21 PM</td>
+                          </tr>
+                          <tr class="py-2">
+                            <td>DISSABTE</td>
+                            <td class="ps-3">AMB CITA PRÈVIA</td>
+                          </tr>
+                          <tr class="py-2">
+                            <td>DIUMENGE</td>
+                            <td class="ps-3">TANCAT</td>
+                          </tr>
+                    </tbody>
+            </table>     
         </div> 
     </section>
 
-    <section class="colaboradors py-5 bg-white">
+    <section class="colaboradors py-5 bg-white my-3">
         <div class="row container-xl mx-auto">
-            <div class="col-7 col-md-8 align-self-center colaboradors__head py-2">
-                <h3 class="py-3 text-center text-md-start text-primary">Apostem per les col.laboracions locals</h3>
+            <div class="col-12 col-sm-7 col-lg-6 align-self-center colaboradors__head py-2 mx-auto">
+                <h4 class="py-3 text-center text-md-start text-info">Apostem per les col.laboracions locals</h4>
             </div>
-            <div class="col-5 col-md-2 align-self-center">
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="col-12 col-sm-4 col-lg-2 align-self-center mx-auto">
+                <div id="carouselExampleSlidesOnly" class="carousel-fade slide" data-bs-ride="carousel">
                     <div class="carousel-inner my-auto">
                         <div class="carousel-item">
                             <img src="build/img/clients/fisiolabcfvilanova.jpg" alt="logo fcvilanova" class="d-block w-100">
@@ -279,59 +318,26 @@
     <footer class="footer bg-dark border-top border-primary border-3 pt-4">
         <div class="container-xl row mx-auto">
             <div class="col-md-4 pb-4">
-                <h3 class="py-2 text-light border-bottom border-light">Contacta'ns</h3>
-                <div class="footer__sociales text-center fs-3 py-3 d-flex justify-content-start">
+                <h4 class="py-2 text-light border-bottom border-light">Contacta'ns</h4>
+                <div class="footer__contact pt-2">
+                        <a class="d-flex py-1 text-decoration-none footer__contact__tel" href="tel:665091019">665 09 10 19</a>
+                        <a class="d-flex py-1 text-decoration-none footer__contact__email" href="mailto:admin@fisiolabcenter.com">admin@fisiolabcenter.com</a>
+                </div>
+                <div class="footer__sociales text-center fs-3 py-3 d-flex justify-content-around">
                     <a href="https://www.facebook.com/fisiolabcenter/" ><i class="bi bi-facebook"></i></a>
                     <a href="https://www.instagram.com/fisiolabcenter/?hl=es" class="ps-4" ><i class="bi bi-instagram"></i></a>
                     <a class="qlwapp-toggle ps-4" data-action="open" data-phone="34665091019" data-message="¡Hola! Necessito demanar cita per..." href="https://web.whatsapp.com/send?phone=34665091019&amp;text=¡Hola! Necessito demanar cita per..." target="_blank">
                         <i class="bi bi-whatsapp"></i>
                     </a>
                 </div>
-                <div class="footer__contact pt-2">
-                    <p class="m-0 d-block text-light py-1">Av Cubelles, 31 Vilanova i la Geltrú BCN</p>
-                        <a class="d-block text-light py-1  text-decoration-none" href="tel:665091019">665 09 10 19</a>
-                        <a class="d-block text-light py-1  text-decoration-none" href="mailto:admin@fisiolabcenter.com">admin@fisiolabcenter.com</a>
-                </div>
+            </div>
+            <div class="col-md-4 pb-4 mapa text-center">
+                <p class="m-0 d-block text-light py-2">Av Cubelles, 31 Vilanova i la Geltrú, BCN</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001.062301137445!2d1.7191816154206034!3d41.22041277927992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a386fbb4b71ff7%3A0xae5fe7c03b015e16!2sAv.%20de%20Cubelles%2C%2031%2C%2008800%20Vilanova%20i%20la%20Geltr%C3%BA%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1644596527496!5m2!1ses!2ses" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+           
             </div>
             <div class="col-md-4 pb-4">
-                <h3 class="py-2 border-bottom border-light text-light">El nostre horari</h3>
-                <div class="py-3">
-                    <table class="text-light">
-                        <tbody>
-                          <tr class="py-2">
-                            <td>DILLUNS</td>
-                            <td class="ps-5">8:30 AM - 21 PM</td>
-                          </tr>
-                          <tr class="py-2">
-                            <td>DIMARTS</td>
-                            <td class="ps-5">8:30 AM - 21 PM</td>
-                          </tr>
-                          <tr class="py-2">
-                            <td>DIMECRES</td>
-                            <td class="ps-5">8:30 AM - 21 PM</td>
-                          </tr>
-                          <tr class="py-2">
-                            <td>DIJOUS</td>
-                            <td class="ps-5">8:30 AM - 21 PM</td>
-                          </tr>
-                          <tr class="py-2">
-                            <td>DIVENDRES</td>
-                            <td class="ps-5">8:30 AM - 21 PM</td>
-                          </tr>
-                          <tr class="py-2">
-                            <td>DISSABTE</td>
-                            <td class="ps-5">AMB CITA PRÈVIA</td>
-                          </tr>
-                          <tr class="py-2">
-                            <td>DIUMENGE</td>
-                            <td class="ps-5">TANCAT</td>
-                          </tr>
-                        </tbody>
-                    </table>
-                </div>    
-            </div>
-            <div class="col-md-4 pb-4">
-                <h3 class="py-2 text-light border-bottom border-light">Els nostres serveis</h3>
+                <h4 class="py-2 text-light border-bottom border-light">Els nostres serveis</h4>
                 <div class="py-3">
                     <ul class="text-light">
                         <li>Fisioteràpia</li>

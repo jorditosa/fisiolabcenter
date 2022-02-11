@@ -20,3 +20,58 @@
 .logo__footer {
     max-width: 8rem;
 }
+
+.mapa {
+
+    iframe {
+        height: 15rem;
+        padding: 0px;
+        border-width: 0px;
+        margin: 0px;
+        touch-action: pan-x pan-y;
+        
+    }
+  
+}
+
+.footer__contact__tel {
+
+    color: $light;
+
+    padding: 0 3rem 0 0;
+    &::before {
+        content: '';
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        filter: invert(1);
+
+        background-image: url('../img/telephone.svg');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    &:hover {
+        color: $primary;
+    }
+}
+
+.footer__contact__email {
+    color: $light;
+
+    padding: 0 3rem 0 0;
+    &::before {
+        content: '';
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        filter: invert(1);
+
+        background-image: url('../img/envelope.svg');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    &:hover {
+        color: $primary;
+    }
+}
