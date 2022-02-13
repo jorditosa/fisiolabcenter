@@ -13,10 +13,10 @@
     transform: scale(1.3);
 
     &-down {
-        margin: -0.6rem 0 0 0;
+        margin: -0.8rem 0 0 0;
     }
     &-top {
-        margin: 0 0 -0.6rem 0;
+        margin: 0 0 -0.8rem 0;
     }
     @include media-breakpoint-up(md){
         transform: scale(1.1);
@@ -31,11 +31,11 @@
 }
 
 .button-serveis {
-    border: 0.2rem outset $dark;
+    border: 0.1rem outset $dark;
     background-color: $white;
 
-    border-radius: 1.6rem;
-    padding: 0.4rem 2rem;
+    border-radius: 1rem;
+    padding: 0.3rem 2rem;
     transition: all ease-in-out 0.5s;
     text-transform: uppercase;
     
@@ -53,11 +53,11 @@
     }
 }
 .button-serveis-2 {
-    border: 0.2rem outset $primary;
+    border: 0.1rem outset $primary;
     background-color: transparent;
 
-    border-radius: 2rem;
-    padding: 0.4rem 2rem;
+    border-radius: 1rem;
+    padding: 0.3rem 2rem;
     transition: all ease-in-out 0.5s;
     text-transform: uppercase;
     

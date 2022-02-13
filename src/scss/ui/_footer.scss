@@ -11,6 +11,29 @@
         i {
             color: $white;
 
+        }
+
+        &--facebook {
+            border: 0.2rem solid $facebook;
+            padding: 0.2rem 0.5rem;
+            border-radius: 25%;
+
+            &:hover {
+                color: $facebook;
+            }
+        }
+        &--instagram {
+            border: 0.2rem solid $instagram;
+            padding: 0.2rem 0.5rem;
+            border-radius: 25%;
+            &:hover {
+                color: $instagram;
+            }
+        }
+        &--whatsapp {
+            border: 0.2rem solid $primary;
+            padding: 0.2rem 0.5rem;
+            border-radius: 25%;
             &:hover {
                 color: $primary;
             }
@@ -25,9 +48,10 @@
 
     iframe {
         height: 15rem;
-        padding: 0px;
-        border-width: 0px;
-        margin: 0px;
+        width: auto;
+        padding: 0rem;
+        border-width: 0rem;
+        margin: 0rem;
         touch-action: pan-x pan-y;
         
     }
@@ -38,12 +62,13 @@
 
     color: $light;
 
-    padding: 0 3rem 0 0;
+    padding: 0 0 0 1.8rem;
     &::before {
         content: '';
         display: block;
         width: 2rem;
         height: 2rem;
+
         filter: invert(1);
 
         background-image: url('../img/telephone.svg');
@@ -58,7 +83,7 @@
 .footer__contact__email {
     color: $light;
 
-    padding: 0 3rem 0 0;
+    padding: 0 0 0 1.8rem;
     &::before {
         content: '';
         display: block;

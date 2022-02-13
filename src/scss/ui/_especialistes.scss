@@ -2,7 +2,7 @@
 @use '../base/mixins' as *;
 
 .button {
-    border: 0.2rem outset $secondary;
+    border: 0.15rem outset $primary;
     background-color: $white;
     color: $dark;
     border-radius: 2rem;
@@ -12,8 +12,9 @@
     font-size: 1rem;
 
     &:hover {
-        background-color: $secondary;
+        background-color: $primary;
         color: $white;
+        transform: translateY(-1deg);
     }
 }
 

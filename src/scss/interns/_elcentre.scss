@@ -1,0 +1,9 @@
+@use '../base/custom' as *;
+@use '../base/mixins' as *;
+
+.centre__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    
+}
