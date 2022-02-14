@@ -4,6 +4,8 @@
 .centre__grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 0rem;
+    margin: 0;
 
     @include media-breakpoint-up(md) {
         grid-template-columns: repeat(3, 1fr);

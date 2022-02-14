@@ -1,0 +1,20 @@
+@use '../base/custom' as *;
+@use '../base/mixins' as *;
+
+.especialista__serveis {
+
+    overflow: hidden;
+
+    box-shadow: 0 0 0.8rem 0 $secondary;
+
+    img {
+        filter: brightness(115%);
+
+        border-bottom-left-radius: 1rem;
+        
+        transform: scale(1.2);
+    }
+    
+
+    
+}
