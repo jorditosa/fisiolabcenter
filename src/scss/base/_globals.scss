@@ -34,3 +34,21 @@ table {
     font-size: 1em;
     text-align: center;
 }
+
+// transicion entre páginas 
+
+
+.fadein {
+
+    animation: fadein 2s;
+
+    @keyframes fadein {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+}

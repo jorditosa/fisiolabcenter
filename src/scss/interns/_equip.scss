@@ -5,16 +5,46 @@
 
     overflow: hidden;
 
-    box-shadow: 0 0 0.8rem 0 $secondary;
+    box-shadow: 0 0 0.8rem 0 $dark;
 
     img {
-        filter: brightness(115%);
-
-        border-bottom-left-radius: 1rem;
+        filter: brightness(110%);
         
-        transform: scale(1.2);
+        transform: scale(1.1);
+        vertical-align: unset !important;
     }
     
 
     
+}
+.especialista__descripcio {
+
+
+    h4 {
+        font-size: 1em;
+        @include media-breakpoint-up(sm) {
+            font-size: 1.3em;
+        }
+        @include media-breakpoint-up (lg) {
+            font-size: 1.5em;
+        }
+    }
+    h6 {
+        font-size: 0.6em;
+        @include media-breakpoint-up(sm) {
+            font-size: 0.7em;
+        }
+        @include media-breakpoint-up(lg) {
+            font-size: 0.8em;
+        }
+    }
+    p {
+        font-size: 0.6em;
+        @include media-breakpoint-up(sm) {
+            font-size: 0.7em;
+        }
+        @include media-breakpoint-up(lg) {
+            font-size: 0.8em;
+        }
+    }
 }
