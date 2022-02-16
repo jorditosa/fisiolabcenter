@@ -10,7 +10,7 @@
     }
 }
 .wave {
-    transform: scale(1.3);
+    transform: scale(1.5);
 
     &-down {
         margin: -0.9rem 0 0 0;
@@ -19,7 +19,7 @@
         margin: 0 0 -0.9rem 0;
     }
     @include media-breakpoint-up(md){
-        transform: scale(1.1);
+        transform: scale(1.2);
         &-down {
             margin: -0.3rem 0 0 0;
         }

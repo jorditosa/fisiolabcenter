@@ -172,3 +172,29 @@
         height: 15rem;
     }
 }
+
+.hero__serveis {
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        opacity: 0.6;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-image: url('../img/nutri_1.jpg');
+
+    }
+
+    height: 5rem;
+    @include media-breakpoint-up(md) {
+        height: 10rem;
+    }
+}
