@@ -30,6 +30,9 @@
     @include media-breakpoint-up(md) {
         height: 35rem;
     }
+    @include media-breakpoint-up(xl) {
+        height: 45rem;
+    }
 
     &__heading {
         font-size: 3.6rem;
