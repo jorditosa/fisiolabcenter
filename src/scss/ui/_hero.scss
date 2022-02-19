@@ -15,7 +15,7 @@
         width: 100%;
         opacity: 0.7;
         background-repeat: no-repeat;
-        background-position: right top;
+        background-position: center top;
         background-size: cover;
         background-attachment: fixed;
         background-image: url('../img/zona-outside.jpg');
@@ -56,11 +56,12 @@
     h2 {
         padding: 0rem;
         margin: 0rem;
-        color: $primary;
-        text-shadow: #474747 3px 5px 2px, 2px 2px 2px rgba(1,51,18,0);
+        color: $secondary;
+        text-shadow: 0.2rem 0.2rem 0 #3d4640, 0.4rem 0.4rem 0 #9c9c9c;
         font-size: 4rem;
         font-weight: bold;
         text-transform: uppercase;
+        letter-spacing: 1.3;
 
         @include media-breakpoint-up(md){
             font-size: 6.4rem;
@@ -153,13 +154,13 @@
         opacity: 0.6;
         background-repeat: no-repeat;
         background-position: center top;
-        background-size: 100% 40%;
+        background-size: cover;
         background-attachment: fixed;
         background-image: url('../img/zona-training-2.jpg');
 
         @include media-breakpoint-up(md) {
-            background-position: center top;
-            background-size: 100% 90%;
+            background-position: center bottom;
+            background-size: cover;
             top: 0;
             left: 0;
             bottom: 0;
@@ -167,9 +168,9 @@
         }
     }
 
-    height: 10rem;
+    height: 6rem;
     @include media-breakpoint-up(md) {
-        height: 15rem;
+        height: 12rem;
     }
 }
 
@@ -186,15 +187,15 @@
         width: 100%;
         opacity: 0.6;
         background-repeat: no-repeat;
-        background-position: center center;
+        background-position: center top;
         background-size: cover;
         background-attachment: fixed;
         background-image: url('../img/nutri_1.jpg');
 
     }
 
-    height: 5rem;
+    height: 6rem;
     @include media-breakpoint-up(md) {
-        height: 8rem;
+        height: 12rem;
     }
 }
