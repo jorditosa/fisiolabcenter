@@ -1,0 +1,22 @@
+@use '../base/custom' as *;
+@use '../base/mixins' as *;
+
+.serveis__page {
+
+    h3 {
+        font-size: 1.4rem;
+
+        @include media-breakpoint-up(md) {
+            font-size: 2rem;
+        }
+
+    }
+
+    p {
+        font-size: 1rem;
+        @include media-breakpoint-up(md) {
+            font-size: 1.4rem;
+        }
+    }
+    
+}
