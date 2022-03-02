@@ -4,18 +4,18 @@
 .serveis__page {
 
     h3 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
 
         @include media-breakpoint-up(md) {
-            font-size: 2rem;
+            font-size: 1.6rem;
         }
 
     }
 
     p {
-        font-size: 1rem;
+        font-size: 0.8rem;
         @include media-breakpoint-up(md) {
-            font-size: 1.4rem;
+            font-size: 1.2rem;
         }
     }
     

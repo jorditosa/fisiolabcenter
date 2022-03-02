@@ -10,16 +10,13 @@
     }
 }
 .wave {
-    transform: scale(1.5);
+    transform: scale(1.4);
 
-    &-down {
-        margin: -0.9rem 0 0 0;
-    }
     &-top {
         margin: 0 0 -0.9rem 0;
     }
     @include media-breakpoint-up(md){
-        transform: scale(1.2);
+        transform: scale(1.1);
         &-down {
             margin: -0.3rem 0 0 0;
         }
@@ -31,13 +28,15 @@
 }
 
 .button-serveis {
-    border: 0.1rem outset $dark;
+    border: 0.15rem outset $dark;
     background-color: $white;
 
     border-radius: 1rem;
-    padding: 0.3rem 2rem;
+    padding: 0.2rem 2rem;
     transition: all ease-in-out 0.5s;
     text-transform: uppercase;
+    -webkit-box-shadow: inset -1px 3px 8px 4px $success, 2px 5px 16px 0px $info, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: inset -1px 3px 8px 4px $success, 2px 5px 16px 0px $info, 5px 5px 15px 5px rgba(0,0,0,0);
     
     a {
         color: $dark;
@@ -53,13 +52,15 @@
     }
 }
 .button-serveis-2 {
-    border: 0.1rem outset $primary;
+    border: 0.15rem outset $primary;
     background-color: transparent;
 
     border-radius: 1rem;
     padding: 0.3rem 2rem;
     transition: all ease-in-out 0.5s;
     text-transform: uppercase;
+    -webkit-box-shadow: inset -1px 3px 8px 4px $success, 2px 5px 16px 0px $info, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: inset -1px 3px 8px 4px $success, 2px 5px 16px 0px $info, 5px 5px 15px 5px rgba(0,0,0,0);
     
     a {
         color: $dark;
@@ -73,4 +74,8 @@
             color: $white;
         }
     }
+}
+
+.serveis__texto p {
+    font-family: Arial, Helvetica, sans-serif;
 }

@@ -21,7 +21,15 @@ a,
         color: $white;
     }
 }
-
+h1 {
+    font-size: 2.8rem;
+}
+h2 {
+    font-size: 2.2rem;
+}
+h3 {
+    font-size: 1.8rem;
+}
 i, li {
 
     &:hover {
@@ -35,12 +43,17 @@ table {
     text-align: center;
 }
 
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+}
+
 // transicion entre páginas 
 
 
 .fadein {
 
-    animation: fadein 1.5s;
+    animation: fadein 2s;
 
     @keyframes fadein {
         from {
