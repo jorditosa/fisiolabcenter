@@ -17,7 +17,7 @@
 </head>
 
 <body class="fadein">
-    <header class="header container-fluid bg-dark border-3 border-primary border-top border-bottom ">
+    <header class="header container-fluid bg-dark border-3 border-secondary border-top border-bottom ">
         <nav class="row py-2 px-5 text-uppercase d-none d-md-flex">
             <div class="col-md-5 navbar-nav flex-row justify-content-around px-1">
                 <a class="nav-link" href="equip.php">Equip</a>
@@ -37,7 +37,7 @@
             <a class="btn p-0 my-auto fs-1 col-3 d-flex justify-content-start" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu">
                 <i class="bi-list text-primary"></i>
             </a>
-            <div class="offcanvas offcanvas-start bg-primary" id="menu">
+            <div class="offcanvas offcanvas-start bg-secondary" id="menu">
                 <div class="offcanvas-header py-4">
                     <button class="btn-close" data-bs-dismiss="offcanvas"></button>
                 </div>
