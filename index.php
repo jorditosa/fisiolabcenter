@@ -1,7 +1,7 @@
 <?php include 'includes/header.php'; ?>
 
 <section class="hero img-fluid text-center row m-0">
-    <div class="col align-self-center">
+    <div class="col align-self-center animate__animated animate__fadeInLeft">
         <div class="wrapper">
             <h2 class="d-block">Fisiolab és <span class="d-block pt-2"></span></h2>
         </div>
@@ -9,10 +9,10 @@
 </section>
 
 <main>
-    <h2 class="py-4 text-center text-primary  text-uppercase fs-1 mb-0">Especialistes <span class="d-block text-uppercase fs-2">a cuidar de tú</span></h2>
+    <h2 class=" container-xl py-4 text-center text-dark fs-2 mb-0">Especialistes <span class="d-block fs-5 text-primary border-top">a cuidar de tú</span></h2>
 
     <div class="row container-xl mx-auto">
-        <div class="col-6 col-sm-4 col-md-3 p-1 p-md-3">
+        <div class="col-6 col-sm-4 col-md-3 p-1 p-md-3 animate__animated animate__fadeInLeft">
             <div class="especialista">
                 <img src="build/img/fisiolab_morata-1-330x470.jpg" alt="imagen morata">
             </div>
@@ -25,7 +25,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 p-1 p-md-3">
+        <div class="col-6 col-sm-4 col-md-3 p-1 p-md-3 animate__animated animate__fadeInLeft">
             <div class="especialista">
                 <img src="build/img/fisiolab_gisela-1-330x470.jpg" alt="imagen gisela">
             </div>
@@ -33,12 +33,12 @@
                 <span class="pt-3">Nutricionista</span>
                 <h3>Gisela Carrion</h3>
                 <div class="text-start">
-                    <span class="badge rounded bg-dark text-white d-block mb-1">Nutrició</span>
+                    <span class="badge rounded bg-primary text-white d-block mb-1">Nutrició</span>
                     <span class="badge rounded bg-info text-white d-block">Alt rendiment</span>
                 </div>
             </div>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 p-1 p-md-3">
+        <div class="col-6 col-sm-4 col-md-3 p-1 p-md-3 animate__animated animate__fadeInLeft">
             <div class="especialista">
                 <img src="build/img/fisiolab_fisio-1-330x470.jpg" alt="imagen pasqual">
             </div>
@@ -51,7 +51,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 p-1 p-md-3">
+        <div class="col-6 col-sm-4 col-md-3 p-1 p-md-3 animate__animated animate__fadeInLeft">
             <div class="especialista">
                 <img src="build/img/fisiolab_helga-1-330x470.jpg" alt="imagen helga">
             </div>
@@ -64,7 +64,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 p-1 p-md-3">
+        <div class="col-6 col-sm-4 col-md-3 p-1 p-md-3 animate__animated animate__fadeInLeft">
             <div class="especialista">
                 <img src="build/img/fisiolab-team-rosana-valverde_ok.jog_-330x470.webp" alt="imagen rosana">
             </div>
@@ -77,7 +77,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 p-1 p-md-3">
+        <div class="col-6 col-sm-4 col-md-3 p-1 p-md-3 animate__animated animate__fadeInLeft">
             <div class="especialista">
                 <img src="build/img/Ivana_Seivane-330x470.jpg" alt="imagen ivana">
             </div>
@@ -85,12 +85,12 @@
                 <span class="pt-3">Podòloga</span>
                 <h3>Ivana Seivane</h3>
                 <div class="text-start">
-                    <span class="badge rounded bg-secondary text-white d-block mb-1">Podologia</span>
+                    <span class="badge rounded bg-primary text-white d-block mb-1">Podologia</span>
                     <span class="badge rounded bg-info text-white d-block">Exercici terapèutic</span>
                 </div>
             </div>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 p-1 p-md-3">
+        <div class="col-6 col-sm-4 col-md-3 p-1 p-md-3 animate__animated animate__fadeInLeft">
             <div class="especialista">
                 <img src="build/img/Adriana_osteopata-330x470.jpg" alt="imagen adriana">
             </div>
@@ -98,16 +98,16 @@
                 <span class="pt-3">Osteòpata i Fisioterapeuta</span>
                 <h3>Adriana Ibañez</h3>
                 <div class="text-start">
-                    <span class="badge rounded bg-info text-white d-block mb-1">Osteopatia</span>
-                    <span class="badge rounded bg-primary text-white d-block">Fisioteràpia</span>
+                    <span class="badge rounded bg-primary text-white d-block mb-1">Osteopatia</span>
+                    <span class="badge rounded bg-info text-white d-block">Fisioteràpia</span>
                 </div>
             </div>
         </div>
     </div>
-    <div class="text-center py-2 py-md-3 rounded-3 container-xl border-bottom border-top">
+    <div class="text-center py-4 py-md-3 rounded-3 container-xl border-bottom border-top">
         <button class="button py-1 my-1">
             <a href="equip.php" class="text-decoration-none text-uppercase fw-bold">
-                <p class="fs-6 m-0">
+                <p class="m-0">
                     Coneix els/les nostres professionals
                 </p>
             </a>
@@ -125,13 +125,18 @@
                 <img src="build/img/fisio_1.jpg" alt="imagen fisioterapia" class="img-fluid py-2">
             </div>
             <div class="serveis__texto col-md-7 text-white py-2 py-md-5">
-                <h2 class="py-2">Fisioteràpia</h2>
+                <h2 class="py-2 border-bottom">Fisioteràpia</h2>
                 <p class="m-0 py-2">Ajuda a millorar el teu dolor des del vessant de la salut. És una eina que té com a objectiu la prevenció, promoció i tractament del nostre pacient. En aquest servei utilitzem i donem més eines necessàries perquè recuperis la teva funcionalitat.</p>
-                <button class="button-serveis mx-auto">
+                <p class="m-0">
+                El servei de fisioteràpia que predomina al centre segueix la filosofia de rehabilitar i readaptar a nivell funcional i/o esportiu, segons les necessitats de cada pacient. Prioritzem un tracte personalitzat com a signe identificatiu, que tingui com a pilars principals l’evidència científica, el raonament i l’experiència clínica.
+                </p>
+                <div class="d-flex justify-content-end m-2">
+                <button class="button-serveis">
                     <a href="serveis_fisioterapia.php">
                         Saber-ne més
                     </a>
                 </button>
+                </div>
             </div>
         </div>
     </div>
@@ -142,13 +147,18 @@
     <div>
         <div class="row container-xl mx-auto">
             <div class="serveis__texto col-md-7 text-dark py-2 py-md-5">
-                <h2 class="py-2">Entrenament</h2>
+                <h2 class="py-2 border-bottom">Entrenament</h2>
                 <p class="m-0 py-2">A l’àrea d’entrenament de Fisiolab estructurem l’exercici físic a través d’una programació individualitzada en funció de les necessitats de cada pacient. Determinem objectius específics i ens focalitzem en el seu assoliment, que serà visible i mesurable.</p>
-                <button class="button-serveis-2">
-                    <a href="serveis_entrenament.php">
-                        Saber-ne més
-                    </a>
-                </button>
+                <p class="m-0">
+                Aquí veiem la vinculació de treball entre les tres àrees de FisioLab Center per assolir l’objectiu principal, el teu objectiu.
+                </p>
+                <div class="d-flex justify-content-end m-2">
+                    <button class="button-serveis-2">
+                        <a href="serveis_entrenament.php">
+                            Saber-ne més
+                        </a>
+                    </button>
+                </div>
             </div>
             <div class="col-md-5 fisio py-2 py-md-5">
                 <img src="build/img/zona-training.jpg" alt="imagen training" class="img-fluid py-2">
@@ -159,36 +169,43 @@
 
 <section class="serveis container-fluid py-1 px-0 m-0">
     <img src="build/img/wave_top_2.svg" alt="imagen top seccion" class="wave">
-    <div class="bg-info">
+    <div class="bg-secondary">
         <div class="row container-xl mx-auto">
             <div class="col-md-5 fisio py-2 py-md-5">
                 <img src="build/img/podo_1.jpg" alt="imagen podologia" class="img-fluid py-2">
             </div>
             <div class="serveis__texto col-md-7 text-white py-2 py-md-5">
-                <h2 class="py-2">Podologia</h2>
+                <h2 class="py-2 border-bottom">Podologia</h2>
                 <p class="m-0 py-2">Estudi del peu i del conjunt de les extremitats inferiors per a la detecció, prevenció i tractament d’alteracions en la funcionalitat articular i biomecànica de la marxa.</p>
-                <button class="button-serveis">
-                    <a href="serveis/serveis_podologia.php">
-                        Saber-ne més
-                    </a>
-                </button>
+                <p class="m-0">
+                Tractament podològic que permet a mitjà i llarg termini prevenir i/o tractar patologies derivades d’alteracions musculo-esquelètiques de l’extremitat inferior.
+                </p>
+                <div class="d-flex justify-content-end m-2">
+                    <button class="button-serveis">
+                        <a href="serveis/serveis_podologia.php">
+                            Saber-ne més
+                        </a>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
     <img src="build/img/wave_down_2.svg" alt="imagen bottom seccion" class="wave wave-down">
 </section>
 
-<section class="serveis container-fluid py-1 px-0 m-0">
+<section class="serveis container-fluid pt-1 pb-5 px-0 m-0">
     <div>
         <div class="row container-xl mx-auto">
             <div class="serveis__texto col-md-7 text-dark py-2 py-md-5">
-                <h2 class="py-2">Nutrició</h2>
+                <h2 class="py-2 border-bottom">Nutrició</h2>
                 <p class="m-0 py-2">El nostre servei de nutrició adaptada a l’esport es basa en una planificació nutricional en funció de l’esportista, que dependrà del seu estil de vida, esport que practica, sexe , edat… junt amb un seguiment que li permetrà arribar en bon estat de forma als seus objectius.</p>
-                <button class="button-serveis-2">
-                    <a href="serveis/serveis_nutricio.php">
-                        Saber-ne més
-                    </a>
-                </button>
+                <div class="d-flex justify-content-end m-2">
+                    <button class="button-serveis-2">
+                        <a href="serveis/serveis_nutricio.php">
+                            Saber-ne més
+                        </a>
+                    </button>
+                </div>
             </div>
             <div class="col-md-5 fisio py-2 py-md-5">
                 <img src="build/img/nutri_1.jpg" alt="imagen nutricio" class="img-fluid py-2">
